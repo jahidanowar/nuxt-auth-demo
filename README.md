@@ -1,3 +1,5 @@
+[![Nuxt Auth: Building a full stack authentication app using mongodb, tailwindcss, JWT and bcrypt](https://i.ibb.co/HrvzQ1m/nuxt-auth-tutorial-1.jpg)](https://www.youtube.com/watch?v=-rBBVhhH5yQ)
+
 # Full Stack Nuxt 3 Authentication App with MongoDB
 
 In this tutorial we will be building a full stack authentication system with Nuxt 3, MongoDB, and Tailwind CSS.
