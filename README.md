@@ -17,3 +17,7 @@ We will be creating the frontend and backend from scratch.
 - A dashboard page that only authenticated users can access
 - Authentication with JWT
 - Server side validation
+
+## The complete app
+
+The complete app is available on the `complete-app` branch.

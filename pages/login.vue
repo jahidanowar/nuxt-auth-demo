@@ -1,36 +1,14 @@
-<script lang="ts" setup>
-definePageMeta({
-  middleware: "guest",
-});
-
-const form = ref({
-  username: "",
-  password: "",
-});
-
-const { signIn } = useAuth();
-
-async function handleLogin() {
-  try {
-    await signIn("credentials", form.value);
-    useRouter().push({
-      name: "index",
-    });
-  } catch (e) {}
-}
-</script>
+<script lang="ts" setup></script>
 <template>
   <div>
     <h1 class="mb-4 text-xl font-bold">Login</h1>
-    <form @submit.prevent="handleLogin">
+    <form>
       <input
-        v-model="form.username"
         class="w-full border p-2 rounded-lg mb-4"
         type="text"
         placeholder="Username"
       />
       <input
-        v-model="form.password"
         class="w-full border p-2 rounded-lg mb-4"
         type="password"
         placeholder="Password"
